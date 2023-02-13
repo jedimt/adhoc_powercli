@@ -1,7 +1,5 @@
 # Set some variables
 $vcsa_fqdn = "tmevcsa.sc0.nebulon.com"
-$vcenter_user = "Administrator@vsphere.local"
-$vcenter_pass = "Nebulon123!"
 $vcenter_cluster = "HPE-Diskless"
 $server_config_file = "./config/hpe_config_3node.json"
 $network_config_file = "./config/network.json"
@@ -16,6 +14,12 @@ Set-PowerCLIConfiguration -DefaultVIServerMode Multiple -Confirm:$false | Out-Nu
 function Get-TimeStamp {
     return "[{0:MM/dd/yy} {0:HH:mm:ss}] " -f (Get-Date)
 }
+
+# Get PS credential object
+$pscredential = get-credential -UserName "administrator@vsphere.local"
+
+# Connect to vCenter
+Connect-VIServer -Credential $pscredential
 
 Write-Host "$(Get-TimeStamp)Reading server configuration file..." -NoNewline
 $server_config = (Get-Content -Path $server_config_file | ConvertFrom-Json -AsHashtable)
