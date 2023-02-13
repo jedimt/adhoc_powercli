@@ -21,9 +21,9 @@ $pscredential = get-credential -UserName "administrator@vsphere.local"
 # Connect to vCenter
 Connect-VIServer -Credential $pscredential
 
-Write-Host "$(Get-TimeStamp)Reading server configuration file..." -NoNewline
-$server_config = (Get-Content -Path $server_config_file | ConvertFrom-Json -AsHashtable)
-Write-Host "Done" -ForegroundColor Green
+# Write-Host "$(Get-TimeStamp)Reading server configuration file..." -NoNewline
+# $server_config = (Get-Content -Path $server_config_file | ConvertFrom-Json -AsHashtable)
+# Write-Host "Done" -ForegroundColor Green
 
 Write-Host "$(Get-TimeStamp)Reading network configuration file..." -NoNewline
 $network_config = (Get-Content -Path $network_config_file | ConvertFrom-Json -AsHashtable)
