@@ -1,7 +1,7 @@
 # Set some variables
 $vcsa_fqdn = "tmevcsa.sc0.nebulon.com"
 $vcenter_cluster = "HPE-Diskless"
-$server_config_file = "./config/hpe_config_3node.json"
+# $server_config_file = "./config/hpe_config_3node.json"
 $network_config_file = "./config/network.json"
 $vswitch_to_configure = "vSwitch0"
 
