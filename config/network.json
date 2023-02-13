@@ -1,0 +1,14 @@
+{
+    "management_pg": {
+        "name": "MGMT",
+        "vlan": "0"
+    },
+    "vmotion_pg": {
+        "name": "vMotion",
+        "vlan": "17"
+    },
+    "vmnetwork": {
+        "name": "VM Network",
+        "vlan": "0"
+    }    
+}

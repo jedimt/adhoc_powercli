@@ -1,0 +1,58 @@
+{
+    "server-05.tme.nebulon.com": {
+        "name": "server-05.tme.nebulon.com",
+        "ilom": "server-05-lom.tme.nebulon.com",
+        "ip": "server-05.tme.nebulon.com",
+        "spu": "10.100.29.114",
+        "spu_gateway": "10.100.29.1",
+        "vmotionip": "10.100.25.35",
+        "vmotionvmk": "vmk1",
+        "vmotionpg": "vMotion",
+        "vmotionnetmask": "255.255.252.0",
+        "mgmtgw": "10.100.24.1",
+        "dns": "10.100.24.11",
+        "mgmtnetmask": "255.255.252.0"
+    },
+    "server-06.tme.nebulon.com": {
+        "name": "server-06.tme.nebulon.com",
+        "ilom": "server-06-lom.tme.nebulon.com",
+        "ip": "server-06.tme.nebulon.com",
+        "spu": "10.100.29.115",
+        "spu_gateway": "10.100.29.1",
+        "vmotionip": "10.100.25.38",
+        "vmotionvmk": "vmk1",
+        "vmotionpg": "vMotion",
+        "vmotionnetmask": "255.255.252.0",
+        "mgmtgw": "10.100.24.1",
+        "dns": "10.100.24.11",
+        "mgmtnetmask": "255.255.252.0"
+    },
+    "server-07.tme.nebulon.com": {
+        "name": "server-07.tme.nebulon.com",
+        "ilom": "server-07-lom.tme.nebulon.com",
+        "ip": "server-07.tme.nebulon.com",
+        "spu": "10.100.29.116",
+        "spu_gateway": "10.100.29.1",
+        "vmotionip": "10.100.25.41",
+        "vmotionvmk": "vmk1",
+        "vmotionpg": "vMotion",
+        "vmotionnetmask": "255.255.252.0",
+        "mgmtgw": "10.100.24.1",
+        "dns": "10.100.24.11",
+        "mgmtnetmask": "255.255.252.0"
+    },
+    "server-08.tme.nebulon.com": {
+        "name": "server-08.tme.nebulon.com",
+        "ilom": "server-08-lom.tme.nebulon.com",
+        "ip": "server-08.tme.nebulon.com",
+        "spu": "10.100.29.113",
+        "spu_gateway": "10.100.29.1",
+        "vmotionip": "10.100.25.44",
+        "vmotionvmk": "vmk1",
+        "vmotionpg": "vMotion",
+        "vmotionnetmask": "255.255.252.0",
+        "mgmtgw": "10.100.24.1",
+        "dns": "10.100.24.11",
+        "mgmtnetmask": "255.255.252.0"
+    }
+}
