@@ -5,13 +5,15 @@
         "ip": "server-05.tme.nebulon.com",
         "spu": "10.100.29.114",
         "spu_gateway": "10.100.29.1",
-        "vmotionip": "10.100.25.35",
+        "vmotionip": "10.100.28.34",
         "vmotionvmk": "vmk1",
         "vmotionpg": "vMotion",
-        "vmotionnetmask": "255.255.252.0",
+        "vmotionnetmask": "255.255.255.0",
         "mgmtgw": "10.100.24.1",
         "dns": "10.100.24.11",
-        "mgmtnetmask": "255.255.252.0"
+        "mgmtnetmask": "255.255.252.0",
+        "vsanip": "10.100.34.10",
+        "vsannetmask": "255.255.255.0"
     },
     "server-06.tme.nebulon.com": {
         "name": "server-06.tme.nebulon.com",
@@ -19,13 +21,15 @@
         "ip": "server-06.tme.nebulon.com",
         "spu": "10.100.29.115",
         "spu_gateway": "10.100.29.1",
-        "vmotionip": "10.100.25.38",
+        "vmotionip": "10.100.28.37",
         "vmotionvmk": "vmk1",
         "vmotionpg": "vMotion",
-        "vmotionnetmask": "255.255.252.0",
+        "vmotionnetmask": "255.255.255.0",
         "mgmtgw": "10.100.24.1",
         "dns": "10.100.24.11",
-        "mgmtnetmask": "255.255.252.0"
+        "mgmtnetmask": "255.255.252.0",
+        "vsanip": "10.100.34.11",
+        "vsannetmask": "255.255.255.0"
     },
     "server-07.tme.nebulon.com": {
         "name": "server-07.tme.nebulon.com",
@@ -33,13 +37,15 @@
         "ip": "server-07.tme.nebulon.com",
         "spu": "10.100.29.116",
         "spu_gateway": "10.100.29.1",
-        "vmotionip": "10.100.25.41",
+        "vmotionip": "10.100.28.40",
         "vmotionvmk": "vmk1",
         "vmotionpg": "vMotion",
-        "vmotionnetmask": "255.255.252.0",
+        "vmotionnetmask": "255.255.255.0",
         "mgmtgw": "10.100.24.1",
         "dns": "10.100.24.11",
-        "mgmtnetmask": "255.255.252.0"
+        "mgmtnetmask": "255.255.252.0",
+        "vsanip": "10.100.34.12",
+        "vsannetmask": "255.255.255.0"
     },
     "server-08.tme.nebulon.com": {
         "name": "server-08.tme.nebulon.com",
@@ -47,12 +53,14 @@
         "ip": "server-08.tme.nebulon.com",
         "spu": "10.100.29.113",
         "spu_gateway": "10.100.29.1",
-        "vmotionip": "10.100.25.44",
+        "vmotionip": "10.100.28.43",
         "vmotionvmk": "vmk1",
         "vmotionpg": "vMotion",
-        "vmotionnetmask": "255.255.252.0",
+        "vmotionnetmask": "255.255.255.0",
         "mgmtgw": "10.100.24.1",
         "dns": "10.100.24.11",
-        "mgmtnetmask": "255.255.252.0"
+        "mgmtnetmask": "255.255.252.0",
+        "vsanip": "10.100.34.13",
+        "vsannetmask": "255.255.255.0"
     }
 }

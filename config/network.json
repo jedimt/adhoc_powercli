@@ -10,5 +10,9 @@
     "vmnetwork": {
         "name": "VM Network",
         "vlan": "0"
-    }    
+    },
+    "vsan": {
+        "name": "vSAN",
+        "vlan": "23"
+    }
 }
